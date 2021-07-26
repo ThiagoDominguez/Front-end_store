@@ -242,45 +242,45 @@ footer{
   .card-1{
     position: relative;
     top: -80px;
-    left: 290px;
+    left: 97px;
     border: solid 1px #F4F8F7;
-    height: 140px;
-    width: 140px;
+    height: 180px;
+    width: 180px;
   }
 .card-1 span{
   position: relative;
-  top: -90px;
-  left: 28px;
+  top: -110px;
+  left: 50px;
   font-size: 1em;
   font-weight: 500;
 }
   .card-2{
     position: relative;
     top: -40px;
-    left: 290px;
+    left: 97px;
     border: solid 1px #F4F8F7;
-    height: 140px;
-    width: 140px;
+    height: 180px;
+    width: 180px;
   }  
   .card-2 span{
     position: relative;
-    top: -90px; 
-    left: 28px;
+    top: -110px; 
+    left: 50px;
     font-size: 1em;
     font-weight: 500;
   }
   .card-3{
     position: relative;
     top: 0px;
-    left: 290px;
+    left: 97px;
     border: solid 1px #F4F8F7;
-    height: 140px;
-    width: 140px;
+    height: 180px;
+    width: 180px;
   }
   .card-3 span{
     position: relative;
-    top: -90px; 
-    left: 28px;
+    top: -110px; 
+    left: 50px;
     font-size: 1em;
     font-weight: 500;
   }
@@ -295,5 +295,7 @@ footer{
     height: 60px;
     font-size:.5em;
     line-height: 60px; 
+    position: relative;
+    bottom: 0px;
   }
 }
