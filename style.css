@@ -236,7 +236,7 @@ footer{
   margin-top: 0%;
   }
   .container{
-    width: 375px;
+    width: auto;
     /* height: 1280px; */
   }
   .card-1{
