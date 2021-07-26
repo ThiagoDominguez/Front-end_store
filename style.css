@@ -242,10 +242,10 @@ footer{
   .card-1{
     position: relative;
     top: -80px;
-    left: 290px;
+    left: 110px;
     border: solid 1px #F4F8F7;
-    height: 140px;
-    width: 140px;
+    height: 500px;
+    width: 500px;
   }
 .card-1 span{
   position: relative;
