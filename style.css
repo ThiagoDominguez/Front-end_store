@@ -141,7 +141,7 @@ footer{
   height: 1%;
   width: 100%;
 }
-/* Mobile  */
+/* Mobile small  */
 @media screen and (min-width: 371px) and (max-height: 647px) and (orientation: portrait) {
   .cont-header{
     width: 371px;
@@ -203,6 +203,84 @@ footer{
     position: relative;
     top: -70px; 
     left: 20px;
+    font-size: 1em;
+    font-weight: 500;
+  }
+  footer{
+    position: relative;
+    bottom: 0px;
+    margin: 0%;
+    width: 100%;
+    height: 150px;
+  }
+  footer h1{
+    height: 60px;
+    font-size: 5vmin;
+    line-height: 60px; 
+  }
+}
+/* Mobile A6+  */
+@media screen and (min-width: 412px) and (max-height: 718px) and (orientation: portrait) {
+  .cont-header{
+    width: 412px;
+    margin-bottom: 10px;
+  }
+  header{
+    height: 50px;
+  }
+  header h1{
+  text-align: center;
+  font-size: 1em;
+  font-weight:  700;
+  line-height: 50px ;
+  margin-top: 0%;
+  }
+  .container{
+    width: 412px;
+    height: 718px;
+  }
+  .card-1{
+    position: relative;
+    top: -80px;
+    left: 138px;
+    border: solid 1px #F4F8F7;
+    height: 120px;
+    width: 135px;
+  }
+.card-1 span{
+  position: relative;
+  top: -70px;
+  left: 28px;
+  font-size: 1em;
+  font-weight: 500;
+}
+  .card-2{
+    position: relative;
+    top: -40px;
+    left: 138px;
+    border: solid 1px #F4F8F7;
+    height: 120px;
+    width: 135px;
+  }  
+  .card-2 span{
+    position: relative;
+    top: -70px; 
+    left: 28px;
+    font-size: 1em;
+    font-weight: 500;
+  }
+  .card-3{
+    position: relative;
+    top: 0px;
+    left: 138px;
+    border: solid 1px #F4F8F7;
+    height: 120px;
+    width: 135px;
+  }
+  .card-3 span{
+    position: relative;
+    top: -70px; 
+    left: 28px;
     font-size: 1em;
     font-weight: 500;
   }
