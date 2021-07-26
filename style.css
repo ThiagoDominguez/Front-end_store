@@ -152,7 +152,7 @@ footer{
   }
   header h1{
   text-align: center;
-  font-size: 2em;
+  font-size: 1em;
   font-weight:  700;
   line-height: 50px ;
   margin-top: 0%;
@@ -164,46 +164,46 @@ footer{
   .card-1{
     position: relative;
     top: -80px;
-    left: 60px;
+    left: 125px;
     border: solid 1px #F4F8F7;
-    height: 200px;
-    width: 250px;
+    height: 100px;
+    width: 120px;
   }
 .card-1 span{
   position: relative;
-  top: -140px;
-  left: 50px;
-  font-size: 2em;
+  top: -70px;
+  left: 20px;
+  font-size: 1em;
   font-weight: 500;
 }
   .card-2{
     position: relative;
     top: -40px;
-    left: 60px;
+    left: 125px;
     border: solid 1px #F4F8F7;
-    height: 200px;
-    width: 250px;
+    height: 100px;
+    width: 120px;
   }  
   .card-2 span{
     position: relative;
-    top: -140px; 
-    left: 50px;
-    font-size: 2em;
+    top: -70px; 
+    left: 20px;
+    font-size: 1em;
     font-weight: 500;
   }
   .card-3{
     position: relative;
     top: 0px;
-    left: 60px;
+    left: 125px;
     border: solid 1px #F4F8F7;
-    height: 200px;
-    width: 250px;
+    height: 100px;
+    width: 120px;
   }
   .card-3 span{
     position: relative;
-    top: -140px; 
-    left: 50px;
-    font-size: 2em;
+    top: -70px; 
+    left: 20px;
+    font-size: 1em;
     font-weight: 500;
   }
   footer{
