@@ -45,8 +45,9 @@ header h1{
 .container{
   width: 1350px;
   height: 630px;
-  /* width: 214.2vmin;
-  height: 71.2vmin; */
+  /* border: black 1px solid; */
+  /* width: 98.5vmax;
+  height: 75vmin; */
 }
 .card-1{
   position: relative;
@@ -115,10 +116,6 @@ header h1{
   font-size: 2rem;
   font-weight: 500;
 }
-/* .card-3 a{
-position: relative;
-top: 95%
-} */
 .img-3{
   position: relative;
   top: 0%;
@@ -142,4 +139,83 @@ footer{
   position: relative;
   bottom: 0%;
   height: 1%;
+  width: 100%;
+}
+/* Mobile  */
+@media screen and (min-width: 371px)and(max-height: 647px) {
+  .cont-header{
+    width: 1350px;
+    margin-bottom: 300px;
+  }
+  header{
+    height: 300px;
+  }
+  header h1{
+  text-align: center;
+  font-size: 8em;
+  font-weight:  700;
+  line-height: 300px ;
+  margin-top: 0%;
+  }
+  .container{
+    width: 1350px;
+    height: 630px;
+  }
+  .card-1{
+    position: relative;
+    top: -40px;
+    left: 75px;
+    border: solid 1px #F4F8F7;
+    width: 1200px;
+    height: 1000px;
+  }
+.card-1 span{
+  position: relative;
+  top: -630px;
+  left: 250px;
+  font-size: 8em;
+  font-weight: 500;
+}
+  .card-2{
+    position: relative;
+    top: -20px;
+    left: 75px;
+    border: solid 1px #F4F8F7;
+    width: 1200px;
+    height: 1000px;
+  }  
+  .card-2 span{
+    position: relative;
+    top: -630px; 
+    left: 250px;
+    font-size: 8em;
+    font-weight: 500;
+  }
+  .card-3{
+    position: relative;
+    top: 0px;
+    left: 75px;
+    border: solid 1px #F4F8F7;
+    width: 1200px;
+    height: 1000px;
+  }
+  .card-3 span{
+    position: relative;
+    top: -630px; 
+    left: 250px;
+    font-size: 8em;
+    font-weight: 500;
+  }
+  footer{
+    position: relative;
+    bottom: 0px;
+    margin: 0%;
+    width: 100%;
+    height: 150px;
+  }
+  footer h1{
+    height: 60px;
+    font-size: 15vmin;
+    line-height: 60px; 
+  }
 }
