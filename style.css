@@ -210,17 +210,22 @@ footer{
     font-size: 1em;
     font-weight: 500;
   }
-  footer{
+  .cont-footer{
+    position: relative;
+    bottom: 0%;
+    height: 60px;
+    line-height: 60px; 
+  }
+  /* footer{
     position: relative;
     top: 100%;
     margin: 0%;
     width: auto;
     height: 0px;
-  }
+  } */
   footer h1{
-    height: 60px;
     font-size: 5vmin;
-    line-height: 60px; 
+    
   }
 }
 /* Mobile medium */
@@ -289,18 +294,23 @@ footer{
     font-size: 1em;
     font-weight: 500;
   }
-  footer{
+  .cont-footer{
+    position: relative;
+    bottom: 0%;
+    height: 60px;
+    line-height: 60px;
+  }
+  /* footer{
     position: relative;
     bottom: 0;
     margin: 0%;
     padding: 0px;
     width: auto;
     height: 0px;
-  }
+  } */
   footer h1{
-    height: 60px;
     font-size:.5em;
-    line-height: 60px; 
+
 
   }
 }
